@@ -1,0 +1,43 @@
+{
+  "wfsl_verification": "WFSL-LOCAL-VERIFY-v1",
+  "repo": {
+    "path": "C:\\Users\\Paul Wynn\\github\\sentinel-ci-baseline",
+    "remote": "https://github.com/Wynergy-Fibre-Solutions/sentinel-ci-baseline.git",
+    "head": "39ac0bfbb6a98854f2ab50c2531381b9a9212cb7"
+  },
+  "timestamp_utc": "2026-01-17T22-36-20-083Z",
+  "checks": {
+    "required_files_present": false,
+    "missing_files": [
+      "LICENSE"
+    ],
+    "license_apache_2_0_detected": false
+  },
+  "artifacts": {
+    "required_files": [
+      {
+        "path": "LICENSE",
+        "exists": false,
+        "sha256": ""
+      },
+      {
+        "path": "README.md",
+        "exists": true,
+        "sha256": "caf862ce4165690c8348bcdfd9412388c6fe7768f23b70fb8fe566cbfc53c6d8"
+      },
+      {
+        "path": "GOVERNANCE.md",
+        "exists": true,
+        "sha256": "23871c56723ef34571dd160639bc8be51916ae1f43261d14cadb580fbf4a7885"
+      },
+      {
+        "path": "VERIFICATION.md",
+        "exists": true,
+        "sha256": "fdf4face86580fc4023b6302e178eceac0109a778f3525224896ec782ca45590"
+      }
+    ]
+  },
+  "outcome": {
+    "pass": false
+  }
+}
